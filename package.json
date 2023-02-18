@@ -1,0 +1,25 @@
+{
+  "name": "wsopen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mtproto/core": "^6.2.0",
+    "@ptkdev/logger": "^1.8.0",
+    "ccxt": "^2.8.11",
+    "events": "^3.3.0",
+    "fetch": "^1.1.0",
+    "node-fetch": "^3.3.0",
+    "sequelize": "^6.28.0",
+    "socket.io-client": "^4.5.4",
+    "sqlite3": "^5.1.4",
+    "ws": "^8.12.1"
+  }
+}
