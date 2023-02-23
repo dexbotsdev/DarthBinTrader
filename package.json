@@ -1,5 +1,5 @@
 {
-  "name": "wsopen",
+  "name": "darthbintrader",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,9 +13,11 @@
   "dependencies": {
     "@mtproto/core": "^6.2.0",
     "@ptkdev/logger": "^1.8.0",
-    "ccxt": "^2.8.11",
+    "binance": "^2.4.1",
+    "emitter": "^0.0.5",
     "events": "^3.3.0",
     "fetch": "^1.1.0",
+    "node-binance-api": "^0.13.1",
     "node-fetch": "^3.3.0",
     "sequelize": "^6.28.0",
     "socket.io-client": "^4.5.4",

@@ -1,0 +1,752 @@
+[2023-02-18 09:15:43] [INFO] Added tradeSignal listener.
+[2023-02-18 09:16:36] [INFO] Added Binance tradeSignal listener.
+[2023-02-18 09:16:51] [INFO] Added Binance Darth Server tradeSignal listener.
+[2023-02-18 09:17:03] [INFO] Added Binance Darth Server tradeSignal.toUpperCase() listener.
+[2023-02-18 09:17:16] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 13:57:28] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 13:58:22] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 13:58:23] [DOCS] Veifying Account - 
+[2023-02-18 13:58:51] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 13:58:52] [DOCS] Veifying Account undefined - 
+[2023-02-18 13:58:58] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 13:59:15] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 13:59:35] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 13:59:35] [DOCS] Veifying Account {} - {"feeTier":0,"canTrade":true,"canDeposit":true,"canWithdraw":true,"updateTime":0,"multiAssetsMargin":true,"totalInitialMargin":"0.00000000","totalMaintMargin":"0.00000000","totalWalletBalance":"0.00000000","totalUnrealizedProfit":"0.00000000","totalMarginBalance":"0.00000000","totalPositionInitialMargin":"0.00000000","totalOpenOrderInitialMargin":"0.00000000","totalCrossWalletBalance":"0.00000000","totalCrossUnPnl":"0.00000000","availableBalance":"0.00000000","maxWithdrawAmount":"0.00000000","assets":[{"asset":"DOT","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":0},{"asset":"BTC","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":0},{"asset":"SOL","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":0},{"asset":"BNB","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":0},{"asset":"ETH","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":0},{"asset":"ADA","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":0},{"asset":"USDT","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":1675436219529},{"asset":"XRP","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":0},{"asset":"USDC","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":0},{"asset":"BUSD","walletBalance":"0.00000000","unrealizedProfit":"0.00000000","marginBalance":"0.00000000","maintMargin":"0.00000000","initialMargin":"0.00000000","positionInitialMargin":"0.00000000","openOrderInitialMargin":"0.00000000","maxWithdrawAmount":"0.00000000","crossWalletBalance":"0.00000000","crossUnPnl":"0.00000000","availableBalance":"0.00000000","marginAvailable":true,"updateTime":1675412255298}],"positions":[{"symbol":"SUSHIUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BTSUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"INJUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"TRXBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ZRXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"HIGHUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"WAVESUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"10","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":1675433782912,"bidNotional":"0","askNotional":"0"},{"symbol":"SPELLUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"XTZUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"50000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BNBUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DARUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"HNTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ETCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"75","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"XMRUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ALICEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"HOOKUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"REEFUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BATUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DOGEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"TRXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"645000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"STORJUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SNXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DOTBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"NEARBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"XLMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"APEBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"IOTXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DASHUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"KAVAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"10000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"RUNEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"APEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BNXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BLUEBIRDUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CVXBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"OPUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"200000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DGBUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SKLUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FOOTBALLUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"TOMOUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"MTLUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LTCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":1675419174088,"bidNotional":"0","askNotional":"0"},{"symbol":"DODOBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"KSMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"WAVESBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BNBBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"100000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ETCBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"TRBUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"MANAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FLOWUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CHRUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"AVAXBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GALUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"OGNUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"RNDRUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GALBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"STMXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"KNCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SRMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ENJUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"100000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ATOMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"200000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SOLBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"100000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ENSUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FILBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ATAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"AGIXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"IOSTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"HBARUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ZECUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GALAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"200000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GTCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ALGOUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LRCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"AGIXBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"STGUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ARPAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CELOUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"PHBBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"QNTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"1INCHUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"TUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LINAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ETHUSDT_230331","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"375000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ARUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FILUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SOLUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BLZUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GMTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"APTBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GMXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LDOBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BANDUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LDOUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"XRPBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"100000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"XRPUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FTTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CRVUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BELUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DOTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GMTBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ONEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"APTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ANKRUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"RAYUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"API3USDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CVCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FTMBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LINKBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SANDBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ASTRUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"HOTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"QTUMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"IOTAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BTCBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"75","isolated":false,"entryPrice":"0.0","maxNotional":"50000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ADAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LITUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"UNIBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"YFIUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FTTBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ETHUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ALPHAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"WOOUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SFPUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"15000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"RLCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BTCSTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"1000XECUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FXSUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"AUDIOUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"NEOUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"UNFIUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SANDUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CTKUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LINKUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"MINAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CELRUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"RSRUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ADABUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"100000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"RENUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"10","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":1675436200968,"bidNotional":"0","askNotional":"0"},{"symbol":"LPTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"JASMYUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"PHBUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BTCUSDT_230331","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"375000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"EGLDUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LUNA2USDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ONTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"VETUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"IMXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"COTIUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CVXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BAKEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GRTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FLMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"GALABUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"MASKUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"EOSUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BALUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DENTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"MATICBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"C98USDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ZENUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"NEARUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"AUCTIONBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BCHUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"75","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LUNA2BUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LTCBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.00","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"1000SHIBUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"TLMBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"TLMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ANTUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ETHBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"AAVEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ICPUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"1000LUNCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":1675421785664,"bidNotional":"0","askNotional":"0"},{"symbol":"AVAXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"50","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"MAGICUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ROSEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"MATICUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"150000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"MKRUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"PEOPLEUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ANCBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"THETAUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"250000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"UNIUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"10000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"RVNUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"NKNUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"KLAYUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DEFIUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"COMPUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BTCDOMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"BTCUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"125","isolated":false,"entryPrice":"0.0","maxNotional":"50000","positionSide":"BOTH","positionAmt":"0.000","notional":"0","isolatedWallet":"0","updateTime":1675419024765,"bidNotional":"0","askNotional":"0"},{"symbol":"OMGUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ICXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ICPBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FETUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"FTMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"50","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"1000SHIBBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"AMBBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DOGEBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"100000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"SXPUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"XEMUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"1000LUNCBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"ZILUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"AXSUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DYDXUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"50000","positionSide":"BOTH","positionAmt":"0.0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"OCEANUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"LEVERBUSD","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"0","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CHZUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"25000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"DUSKUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"},{"symbol":"CTSIUSDT","initialMargin":"0","maintMargin":"0","unrealizedProfit":"0.00000000","positionInitialMargin":"0","openOrderInitialMargin":"0","leverage":"20","isolated":false,"entryPrice":"0.0","maxNotional":"5000","positionSide":"BOTH","positionAmt":"0","notional":"0","isolatedWallet":"0","updateTime":0,"bidNotional":"0","askNotional":"0"}]}
+[2023-02-18 14:00:37] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 14:00:39] [DOCS] Veifying Account {} - true
+[2023-02-18 14:00:47] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 14:00:47] [DOCS] Veifying Account  - true
+[2023-02-18 14:01:08] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 14:01:08] [DOCS] Veifying Account  - 
+[2023-02-18 14:01:49] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 14:01:49] [DOCS] Veifying Account  - -2014
+[2023-02-18 14:02:00] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 14:02:00] [DOCS] Veifying Account  - -2014
+[2023-02-18 14:02:11] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 14:02:12] [DOCS] Veifying Account  - -2014
+[2023-02-18 14:03:14] [DOCS] Veifying Account  - 
+[2023-02-18 14:03:14] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-18 14:03:22] [DOCS] Veifying Account  - 
+[2023-02-18 14:03:22] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:17:28] [DOCS] Veifying Account  - 
+[2023-02-19 06:17:28] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:25:23] [DOCS] Veifying Account  - 
+[2023-02-19 06:25:23] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:28:07] [DOCS] Veifying Account  - 
+[2023-02-19 06:28:07] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:29:06] [DOCS] Veifying Account  - 
+[2023-02-19 06:29:06] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:29:20] [INFO] Recieved 
+[2023-02-19 06:29:20] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:29:20] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 06:29:21] [INFO] Placing Limit Order 1 at 1.247
+[2023-02-19 06:29:21] [INFO] Placing Limit Order 2 at 1.285
+[2023-02-19 06:39:56] [DOCS] Veifying Account  - 
+[2023-02-19 06:39:56] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:40:05] [INFO] Recieved 
+[2023-02-19 06:40:05] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 06:40:05] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:40:40] [DOCS] Veifying Account  - 
+[2023-02-19 06:40:40] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:40:44] [INFO] Recieved 
+[2023-02-19 06:40:44] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 06:40:44] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:40:45] [ERROR] Not Enough USDT Balance in account 
+[2023-02-19 06:41:13] [DOCS] Veifying Account  - 
+[2023-02-19 06:41:13] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:41:15] [INFO] Recieved 
+[2023-02-19 06:41:15] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 06:41:15] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:41:41] [DOCS] Veifying Account  - 
+[2023-02-19 06:41:41] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:41:46] [INFO] Recieved 
+[2023-02-19 06:41:46] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 06:41:46] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:44:38] [DOCS] Veifying Account  - 
+[2023-02-19 06:44:38] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:45:02] [INFO] Recieved 
+[2023-02-19 06:45:02] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 06:45:02] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:45:44] [INFO] Recieved 
+[2023-02-19 06:45:44] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 06:45:44] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:46:03] [DOCS] Veifying Account  - 
+[2023-02-19 06:46:03] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:46:11] [INFO] Recieved 
+[2023-02-19 06:46:11] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 06:46:11] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:46:13] [INFO] Placing 50% Limit Order 1 at 4945
+[2023-02-19 06:46:13] [INFO] Placing 50% Limit Order 2 at 4870
+[2023-02-19 06:48:55] [DOCS] Veifying Account  - 
+[2023-02-19 06:48:55] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:49:06] [INFO] Recieved 
+[2023-02-19 06:49:06] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 06:49:06] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:49:08] [INFO] Placing 50% Limit Order 1 at 4945
+[2023-02-19 06:49:09] [INFO] Placing 50% Limit Order 2 at 4870
+[2023-02-19 06:57:20] [DOCS] Veifying Account  - 
+[2023-02-19 06:57:20] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:57:25] [INFO] Recieved 
+[2023-02-19 06:57:25] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 06:57:25] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:57:27] [INFO] Placing 50% Limit Order 1 at 4870
+[2023-02-19 06:57:28] [INFO] Placing 50% Limit Order 2 at 4945
+[2023-02-19 06:58:40] [DOCS] Veifying Account  - 
+[2023-02-19 06:58:40] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 06:58:50] [INFO] Recieved 
+[2023-02-19 06:58:50] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 06:58:50] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 06:58:53] [INFO] Placing 50% Limit Order 1 at 4870
+[2023-02-19 06:58:53] [INFO] Placing 50% Limit Order 2 at 4945
+[2023-02-19 07:00:08] [DOCS] Veifying Account  - 
+[2023-02-19 07:00:08] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:00:10] [INFO] Recieved 
+[2023-02-19 07:00:10] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:00:10] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:00:12] [INFO] Placing 50% Limit Order 1 at 4870
+[2023-02-19 07:00:12] [INFO] Placing 50% Limit Order 2 at 4945
+[2023-02-19 07:00:44] [DOCS] Veifying Account  - 
+[2023-02-19 07:00:44] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:00:54] [INFO] Recieved 
+[2023-02-19 07:00:54] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:00:54] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:00:56] [INFO] Placing 50% Limit Order 1 at 4870
+[2023-02-19 07:00:56] [INFO] Placing 50% Limit Order 2 at 4945
+[2023-02-19 07:02:12] [DOCS] Veifying Account  - 
+[2023-02-19 07:02:12] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:02:14] [INFO] Recieved 
+[2023-02-19 07:02:14] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:02:14] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:02:16] [INFO] Placing 50% Limit Order 1 at 4870
+[2023-02-19 07:02:16] [INFO] Placing 50% Limit Order 2 at 4945
+[2023-02-19 07:03:05] [DOCS] Veifying Account  - 
+[2023-02-19 07:03:05] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:03:08] [INFO] Recieved 
+[2023-02-19 07:03:08] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:03:08] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:03:11] [INFO] Placing 50% Limit Order 1 at 0.487
+[2023-02-19 07:03:11] [INFO] Placing 50% Limit Order 2 at 0.4945
+[2023-02-19 07:04:20] [DOCS] Veifying Account  - 
+[2023-02-19 07:04:20] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:04:37] [INFO] Recieved 
+[2023-02-19 07:04:37] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:04:37] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:04:40] [INFO] 0.487: Placing 50% Limit Order 1 at 103.50681
+[2023-02-19 07:04:40] [INFO] 0.4945: Placing 50% Limit Order 2 at 103.50681
+[2023-02-19 07:11:05] [DOCS] Veifying Account  - 
+[2023-02-19 07:11:05] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:11:18] [INFO] Recieved 
+[2023-02-19 07:11:18] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:11:18] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:11:20] [INFO] 0.487: Placing 50% Limit Order 1 at 1035.06811
+[2023-02-19 07:11:21] [INFO] 0.4945: Placing 50% Limit Order 2 at 1035.06811
+[2023-02-19 07:15:29] [DOCS] Veifying Account  - 
+[2023-02-19 07:15:29] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:15:36] [INFO] Recieved 
+[2023-02-19 07:15:36] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:15:36] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:15:38] [INFO] 0.487: Placing 50% Limit Order 1 at 1035
+[2023-02-19 07:15:38] [INFO] 0.4945: Placing 50% Limit Order 2 at 1035
+[2023-02-19 07:18:43] [DOCS] Veifying Account  - 
+[2023-02-19 07:18:43] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:18:52] [INFO] Recieved 
+[2023-02-19 07:18:52] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:18:52] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:18:55] [INFO] 0.487: Placing 50% Limit Order 1 at 1049
+[2023-02-19 07:18:55] [INFO] 0.4945: Placing 50% Limit Order 2 at 1049
+[2023-02-19 07:19:56] [DOCS] Veifying Account  - 
+[2023-02-19 07:19:56] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:20:09] [INFO] Recieved 
+[2023-02-19 07:20:09] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:20:09] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:20:12] [INFO] 4870: Placing 50% Limit Order 1 at 1048.570
+[2023-02-19 07:20:13] [INFO] 4945: Placing 50% Limit Order 2 at 1048.570
+[2023-02-19 07:20:48] [DOCS] Veifying Account  - 
+[2023-02-19 07:20:48] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:20:51] [INFO] Recieved 
+[2023-02-19 07:20:51] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:20:51] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:20:53] [INFO] 4870: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:20:53] [INFO] 4945: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:29:19] [DOCS] Veifying Account  - 
+[2023-02-19 07:29:19] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:29:35] [INFO] Recieved 
+[2023-02-19 07:29:35] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:29:35] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:29:37] [INFO] 4870: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:29:37] [INFO] 4945: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:30:27] [DOCS] Veifying Account  - 
+[2023-02-19 07:30:27] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:30:43] [INFO] Recieved 
+[2023-02-19 07:30:43] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:30:43] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:30:46] [INFO] 4870: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:30:46] [INFO] 4945: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:31:13] [DOCS] Veifying Account  - 
+[2023-02-19 07:31:13] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:31:15] [INFO] Recieved 
+[2023-02-19 07:31:15] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:31:15] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:31:17] [INFO] 4870: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:31:17] [INFO] 4945: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:32:25] [DOCS] Veifying Account  - 
+[2023-02-19 07:32:25] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:32:26] [INFO] Recieved 
+[2023-02-19 07:32:26] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:32:26] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:32:29] [INFO] 4870: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:32:29] [INFO] 4945: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:32:50] [DOCS] Veifying Account  - 
+[2023-02-19 07:32:50] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:32:54] [INFO] Recieved 
+[2023-02-19 07:32:54] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:32:54] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:32:56] [INFO] 4870: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:32:57] [INFO] 4945: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:34:56] [DOCS] Veifying Account  - 
+[2023-02-19 07:34:56] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:35:10] [INFO] Recieved 
+[2023-02-19 07:35:10] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:35:10] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:35:12] [INFO] 4870: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:35:12] [INFO] 4945: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:35:33] [DOCS] Veifying Account  - 
+[2023-02-19 07:35:33] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:35:42] [INFO] Recieved 
+[2023-02-19 07:35:42] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:35:42] [INFO] Open New Market Trade for Signal for SYMBOL - OCEANUSDT
+[2023-02-19 07:35:45] [INFO] 4870: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:35:45] [INFO] 4945: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:35:45] [INFO] 4993: Selling LIMIT 0.500
+[2023-02-19 07:35:46] [INFO] 5080: Selling LIMIT 0.500
+[2023-02-19 07:35:46] [INFO] 5225: Selling LIMIT 0.500
+[2023-02-19 07:35:46] [INFO] 5495: Selling LIMIT 0.500
+[2023-02-19 07:37:28] [DOCS] Veifying Account  - 
+[2023-02-19 07:37:28] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:37:47] [INFO] Recieved 
+[2023-02-19 07:37:47] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 07:37:47] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:37:50] [INFO] 23451✅: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:37:50] [INFO] 23572✅: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:37:51] [INFO] 23677: Selling LIMIT 0.500
+[2023-02-19 07:37:51] [INFO] 23857: Selling LIMIT 0.500
+[2023-02-19 07:37:52] [INFO] 24101: Selling LIMIT 0.500
+[2023-02-19 07:37:52] [INFO] 24588: Selling LIMIT 0.500
+[2023-02-19 07:38:38] [DOCS] Veifying Account  - 
+[2023-02-19 07:38:38] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:38:42] [INFO] Recieved 
+[2023-02-19 07:38:42] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 07:38:42] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:38:45] [INFO] 23451✅: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:38:45] [INFO] 23572✅: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:38:45] [INFO] 23677: Selling LIMIT 0.500
+[2023-02-19 07:38:46] [INFO] 23857: Selling LIMIT 0.500
+[2023-02-19 07:38:46] [INFO] 24101: Selling LIMIT 0.500
+[2023-02-19 07:38:46] [INFO] 24588: Selling LIMIT 0.500
+[2023-02-19 07:40:16] [DOCS] Veifying Account  - 
+[2023-02-19 07:40:16] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:40:18] [INFO] Recieved 
+[2023-02-19 07:40:18] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 07:40:18] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:40:21] [INFO] 23451✅: Placing 50% Limit Order 1 at 1.000
+[2023-02-19 07:40:21] [INFO] 23572✅: Placing 50% Limit Order 2 at 1.000
+[2023-02-19 07:40:21] [INFO] 23677: Selling LIMIT 0.500
+[2023-02-19 07:40:22] [INFO] 23857: Selling LIMIT 0.500
+[2023-02-19 07:40:22] [INFO] 24101: Selling LIMIT 0.500
+[2023-02-19 07:40:22] [INFO] 24588: Selling LIMIT 0.500
+[2023-02-19 07:42:00] [DOCS] Veifying Account  - 
+[2023-02-19 07:42:00] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:42:02] [INFO] Recieved 
+[2023-02-19 07:42:02] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 07:42:02] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:42:04] [INFO] Placing 50% Limit Order 1 at 0.020:23451✅
+[2023-02-19 07:42:04] [INFO] Placing 50% Limit Order 2 at 0.020:23572✅
+[2023-02-19 07:42:05] [INFO] 23677: Selling LIMIT 0.010
+[2023-02-19 07:42:05] [INFO] 23857: Selling LIMIT 0.010
+[2023-02-19 07:42:05] [INFO] 24101: Selling LIMIT 0.010
+[2023-02-19 07:42:06] [INFO] 24588: Selling LIMIT 0.010
+[2023-02-19 07:43:48] [DOCS] Veifying Account  - 
+[2023-02-19 07:43:48] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:43:51] [INFO] Recieved 
+[2023-02-19 07:43:51] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 07:43:51] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:44:24] [DOCS] Veifying Account  - 
+[2023-02-19 07:44:24] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 07:44:29] [INFO] Recieved 
+[2023-02-19 07:44:29] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 07:44:29] [INFO] 10: Setting Leverage for the Trade 
+[2023-02-19 07:44:32] [INFO] Placing 50% Limit Order 1 at 0.020:23451✅
+[2023-02-19 07:44:32] [INFO] Placing 50% Limit Order 2 at 0.020:23572✅
+[2023-02-19 07:44:33] [INFO] 23677: Selling LIMIT 0.010
+[2023-02-19 07:44:33] [INFO] 23857: Selling LIMIT 0.010
+[2023-02-19 07:44:33] [INFO] 24101: Selling LIMIT 0.010
+[2023-02-19 07:44:34] [INFO] 24588: Selling LIMIT 0.010
+[2023-02-19 08:01:40] [DOCS] Veifying Account  - 
+[2023-02-19 08:01:40] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:01:42] [INFO] Recieved 
+[2023-02-19 08:01:42] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:01:42] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:01:45] [INFO] Placing 50% Limit Order 1 at 0.203:24451✅
+[2023-02-19 08:01:45] [INFO] Placing 50% Limit Order 2 at 0.203:24572✅
+[2023-02-19 08:01:45] [INFO] 24777: Selling LIMIT 0.101
+[2023-02-19 08:01:46] [INFO] 24857: Selling LIMIT 0.101
+[2023-02-19 08:01:46] [INFO] 25101: Selling LIMIT 0.101
+[2023-02-19 08:01:46] [INFO] 25588: Selling LIMIT 0.101
+[2023-02-19 08:04:38] [INFO] Recieved 
+[2023-02-19 08:04:38] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:04:38] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:10:21] [DOCS] Veifying Account  - 
+[2023-02-19 08:10:21] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:10:30] [INFO] Recieved 
+[2023-02-19 08:10:30] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:10:30] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:10:33] [INFO] Placing 50% Limit Order 1 at 0.203:24699.8✅
+[2023-02-19 08:10:33] [INFO] Placing 50% Limit Order 2 at 0.203:24719.8✅
+[2023-02-19 08:10:33] [INFO] 24777: Selling LIMIT 0.101
+[2023-02-19 08:10:34] [INFO] 24857: Selling LIMIT 0.101
+[2023-02-19 08:10:34] [INFO] 25101: Selling LIMIT 0.101
+[2023-02-19 08:10:35] [INFO] 25588: Selling LIMIT 0.101
+[2023-02-19 08:20:37] [DOCS] Veifying Account  - 
+[2023-02-19 08:20:37] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:20:43] [INFO] Recieved 
+[2023-02-19 08:20:43] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 08:20:43] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:21:24] [DOCS] Veifying Account  - 
+[2023-02-19 08:21:24] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:21:33] [INFO] Recieved 
+[2023-02-19 08:21:33] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 08:21:33] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:22:35] [DOCS] Veifying Account  - 
+[2023-02-19 08:22:35] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:23:31] [DOCS] Veifying Account  - 
+[2023-02-19 08:23:31] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:25:21] [DOCS] Veifying Account  - 
+[2023-02-19 08:25:21] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:25:38] [INFO] Recieved 
+[2023-02-19 08:25:38] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 08:25:38] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:27:04] [DOCS] Veifying Account  - 
+[2023-02-19 08:27:04] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:27:08] [INFO] Recieved 
+[2023-02-19 08:27:08] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 08:27:08] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:28:50] [DOCS] Veifying Account  - 
+[2023-02-19 08:28:50] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:28:56] [INFO] Recieved 
+[2023-02-19 08:28:56] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 08:28:56] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:30:27] [DOCS] Veifying Account  - 
+[2023-02-19 08:30:27] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:30:43] [INFO] Recieved 
+[2023-02-19 08:30:43] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 08:30:43] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:31:26] [DOCS] Veifying Account  - 
+[2023-02-19 08:31:26] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:31:29] [INFO] Recieved 
+[2023-02-19 08:31:29] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:31:29] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 08:41:04] [DOCS] Veifying Account  - 
+[2023-02-19 08:41:04] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:41:23] [INFO] Recieved 
+[2023-02-19 08:41:23] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-19 08:41:23] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:42:18] [INFO] Recieved 
+[2023-02-19 08:42:18] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:42:18] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:42:20] [INFO] 24777: Selling LIMIT NaN
+[2023-02-19 08:42:21] [INFO] 24857: Selling LIMIT NaN
+[2023-02-19 08:42:21] [INFO] 25101: Selling LIMIT NaN
+[2023-02-19 08:42:21] [INFO] 25588: Selling LIMIT NaN
+[2023-02-19 08:42:59] [DOCS] Veifying Account  - 
+[2023-02-19 08:42:59] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:43:28] [INFO] Recieved 
+[2023-02-19 08:43:28] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:43:28] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:43:31] [INFO] 24777: Selling LIMIT NaN
+[2023-02-19 08:43:31] [INFO] 24857: Selling LIMIT NaN
+[2023-02-19 08:43:32] [INFO] 25101: Selling LIMIT NaN
+[2023-02-19 08:43:32] [INFO] 25588: Selling LIMIT NaN
+[2023-02-19 08:44:23] [DOCS] Veifying Account  - 
+[2023-02-19 08:44:23] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:44:27] [INFO] Recieved 
+[2023-02-19 08:44:27] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:44:27] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:44:30] [INFO] 24777: Selling LIMIT NaN
+[2023-02-19 08:44:30] [INFO] 24857: Selling LIMIT NaN
+[2023-02-19 08:44:30] [INFO] 25101: Selling LIMIT NaN
+[2023-02-19 08:44:31] [INFO] 25588: Selling LIMIT NaN
+[2023-02-19 08:45:56] [DOCS] Veifying Account  - 
+[2023-02-19 08:45:56] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:45:58] [INFO] Recieved 
+[2023-02-19 08:45:58] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:45:58] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:46:01] [INFO] 24777: Selling LIMIT NaN
+[2023-02-19 08:46:01] [INFO] 24857: Selling LIMIT NaN
+[2023-02-19 08:46:01] [INFO] 25101: Selling LIMIT NaN
+[2023-02-19 08:46:02] [INFO] 25588: Selling LIMIT NaN
+[2023-02-19 08:47:07] [DOCS] Veifying Account  - 
+[2023-02-19 08:47:07] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:47:16] [INFO] Recieved 
+[2023-02-19 08:47:16] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:47:16] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:47:18] [INFO] 24777: Selling LIMIT NaN
+[2023-02-19 08:47:18] [INFO] 24857: Selling LIMIT NaN
+[2023-02-19 08:47:19] [INFO] 25101: Selling LIMIT NaN
+[2023-02-19 08:47:19] [INFO] 25588: Selling LIMIT NaN
+[2023-02-19 08:49:06] [DOCS] Veifying Account  - 
+[2023-02-19 08:49:06] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:49:08] [INFO] Recieved 
+[2023-02-19 08:49:08] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:49:08] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:49:10] [INFO] 24777: Selling LIMIT NaN
+[2023-02-19 08:49:10] [INFO] 24857: Selling LIMIT NaN
+[2023-02-19 08:49:10] [INFO] 25101: Selling LIMIT NaN
+[2023-02-19 08:49:11] [INFO] 25588: Selling LIMIT NaN
+[2023-02-19 08:49:22] [DOCS] Veifying Account  - 
+[2023-02-19 08:49:22] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:50:33] [DOCS] Veifying Account  - 
+[2023-02-19 08:50:33] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:50:37] [INFO] Recieved 
+[2023-02-19 08:50:37] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:50:37] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:50:39] [INFO] Placing Limit Order  at 0.203:24719.8
+[2023-02-19 08:50:39] [INFO] Placing Limit Order  at 0.203:24699.8
+[2023-02-19 08:50:40] [INFO] 24777: Selling LIMIT 0.101
+[2023-02-19 08:50:40] [INFO] 24857: Selling LIMIT 0.101
+[2023-02-19 08:50:40] [INFO] 25101: Selling LIMIT 0.101
+[2023-02-19 08:50:40] [INFO] 25588: Selling LIMIT 0.101
+[2023-02-19 08:53:23] [DOCS] Veifying Account  - 
+[2023-02-19 08:53:23] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:53:44] [INFO] Recieved 
+[2023-02-19 08:53:44] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:53:44] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:53:47] [INFO] Placing Limit Order  at 0.203:24719.8
+[2023-02-19 08:53:47] [INFO] Placing Limit Order  at 0.203:24699.8
+[2023-02-19 08:53:48] [INFO] 24777: Selling LIMIT 0.101
+[2023-02-19 08:53:48] [INFO] 24857: Selling LIMIT 0.101
+[2023-02-19 08:53:48] [INFO] 25101: Selling LIMIT 0.101
+[2023-02-19 08:53:48] [INFO] 25588: Selling LIMIT 0.101
+[2023-02-19 08:55:41] [DOCS] Veifying Account  - 
+[2023-02-19 08:55:41] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:55:52] [INFO] Recieved 
+[2023-02-19 08:55:52] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:55:52] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:57:08] [DOCS] Veifying Account  - 
+[2023-02-19 08:57:08] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 08:57:19] [INFO] Recieved 
+[2023-02-19 08:57:19] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:57:19] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:57:22] [INFO] Placing Limit Order  at 0.202:24719.8
+[2023-02-19 08:57:22] [INFO] Placing Limit Order  at 0.202:24699.8
+[2023-02-19 08:57:23] [INFO] 24777: Selling LIMIT 0.101
+[2023-02-19 08:57:23] [INFO] 24857: Selling LIMIT 0.101
+[2023-02-19 08:57:23] [INFO] 25101: Selling LIMIT 0.101
+[2023-02-19 08:57:23] [INFO] 25588: Selling LIMIT 0.101
+[2023-02-19 08:58:51] [INFO] Recieved 
+[2023-02-19 08:58:51] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:58:51] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:58:54] [INFO] Placing Limit Order  at 0.202:24619.8
+[2023-02-19 08:58:54] [INFO] Placing Limit Order  at 0.202:24599.8
+[2023-02-19 08:58:54] [INFO] 24777: Selling LIMIT 0.101
+[2023-02-19 08:58:55] [INFO] 24857: Selling LIMIT 0.101
+[2023-02-19 08:58:55] [INFO] 25101: Selling LIMIT 0.101
+[2023-02-19 08:58:55] [INFO] 25588: Selling LIMIT 0.101
+[2023-02-19 08:59:27] [INFO] Recieved 
+[2023-02-19 08:59:27] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 08:59:27] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 08:59:30] [INFO] Placing Limit Order  at 0.202:24619.8
+[2023-02-19 08:59:30] [INFO] Placing Limit Order  at 0.202:24599.8
+[2023-02-19 08:59:31] [INFO] 24777: Selling LIMIT 0.101
+[2023-02-19 08:59:31] [INFO] 24857: Selling LIMIT 0.101
+[2023-02-19 08:59:31] [INFO] 25101: Selling LIMIT 0.101
+[2023-02-19 08:59:32] [INFO] 25588: Selling LIMIT 0.101
+[2023-02-19 09:20:19] [DOCS] Veifying Account  - 
+[2023-02-19 09:20:19] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 09:20:30] [INFO] Recieved 
+[2023-02-19 09:20:30] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 09:20:30] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 09:20:34] [INFO] Placing Limit Order  at 0.203:24619.8
+[2023-02-19 09:20:34] [INFO] Placing Limit Order  at 0.203:24599.8
+[2023-02-19 09:20:34] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 09:20:34] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 09:20:35] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 09:20:35] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 09:22:26] [DOCS] Veifying Account  - 
+[2023-02-19 09:22:26] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 09:22:36] [INFO] Recieved 
+[2023-02-19 09:22:36] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 09:22:36] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 09:22:39] [INFO] Placing Limit Order  at 0.203:24619.8
+[2023-02-19 09:22:39] [INFO] Placing Limit Order  at 0.203:24599.8
+[2023-02-19 09:22:39] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 09:22:40] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 09:22:40] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 09:22:40] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 09:31:58] [DOCS] Veifying Account  - 
+[2023-02-19 09:31:58] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 09:32:00] [INFO] Recieved 
+[2023-02-19 09:32:00] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 09:32:00] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 09:32:02] [INFO] Placing Limit Order  at 0.203:24619.8
+[2023-02-19 09:32:03] [INFO] Placing Limit Order  at 0.203:24599.8
+[2023-02-19 09:32:03] [INFO] 24777: Placing Take Profit Orders 0.102
+[2023-02-19 09:32:04] [INFO] 24857: Placing Take Profit Orders 0.102
+[2023-02-19 09:32:04] [INFO] 25101: Placing Take Profit Orders 0.102
+[2023-02-19 09:32:04] [INFO] 25588: Placing Take Profit Orders 0.102
+[2023-02-19 09:32:55] [DOCS] Veifying Account  - 
+[2023-02-19 09:32:55] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 09:33:05] [INFO] Recieved 
+[2023-02-19 09:33:05] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 09:33:05] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 09:33:08] [INFO] Placing Limit Order  at 0.203:24619.8
+[2023-02-19 09:33:08] [INFO] Placing Limit Order  at 0.203:24599.8
+[2023-02-19 09:33:08] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 09:33:09] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 09:33:09] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 09:33:09] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 09:33:10] [INFO] Placing StopLoss Order
+[2023-02-19 09:50:12] [INFO] Recieved 
+[2023-02-19 09:50:12] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 09:50:12] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 09:50:14] [INFO] Placing Limit Order  at 0.203:24719.8
+[2023-02-19 09:50:15] [INFO] Placing Limit Order  at 0.203:24699.8
+[2023-02-19 09:50:15] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 09:50:15] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 09:50:16] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 09:50:16] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 09:50:16] [INFO] Placing StopLoss Order
+[2023-02-19 09:51:23] [DOCS] Veifying Account  - 
+[2023-02-19 09:51:23] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 09:51:34] [INFO] Recieved 
+[2023-02-19 09:51:34] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 09:51:34] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 09:51:37] [INFO] Placing Limit Order  at 0.203:24719.8
+[2023-02-19 09:51:38] [INFO] Placing Limit Order  at 0.203:24699.8
+[2023-02-19 09:51:39] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 09:51:39] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 09:51:39] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 09:51:40] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 09:51:40] [INFO] Placing StopLoss Order
+[2023-02-19 09:53:50] [DOCS] Veifying Account  - 
+[2023-02-19 09:53:50] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 09:53:58] [INFO] Recieved 
+[2023-02-19 09:53:58] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 09:53:58] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 09:54:00] [INFO] Placing Limit Order  at 0.203:24719.8
+[2023-02-19 09:54:00] [INFO] Placing Limit Order  at 0.203:24699.8
+[2023-02-19 09:54:01] [ERROR] Orders have failed placing
+[2023-02-19 09:54:30] [DOCS] Veifying Account  - 
+[2023-02-19 09:54:30] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 09:54:33] [INFO] Recieved 
+[2023-02-19 09:54:33] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 09:54:33] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 09:54:35] [INFO] Placing Limit Order  at 0.203:24619.8
+[2023-02-19 09:54:35] [INFO] Placing Limit Order  at 0.203:24599.8
+[2023-02-19 09:54:37] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 09:54:37] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 09:54:38] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 09:54:38] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 09:54:38] [INFO] Placing StopLoss Order
+[2023-02-19 11:28:52] [DOCS] Veifying Account  - 
+[2023-02-19 11:28:52] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 11:29:10] [INFO] Recieved 
+[2023-02-19 11:29:10] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 11:29:10] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 11:29:12] [INFO] Placing Limit Order  at 0.202:24619.8
+[2023-02-19 11:29:12] [INFO] Placing Limit Order  at 0.202:24599.8
+[2023-02-19 11:29:13] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 11:29:13] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 11:29:13] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 11:29:14] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 11:29:14] [INFO] Placing StopLoss Order
+[2023-02-19 11:35:45] [DOCS] Veifying Account  - 
+[2023-02-19 11:35:45] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 11:36:07] [INFO] Recieved 
+[2023-02-19 11:36:07] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 11:36:07] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 11:36:09] [INFO] Placing Limit Order  at 0.202:24619.8
+[2023-02-19 11:36:10] [INFO] Placing Limit Order  at 0.202:24599.8
+[2023-02-19 11:36:11] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 11:36:11] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 11:36:11] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 11:36:12] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 11:36:12] [INFO] Placing StopLoss Order
+[2023-02-19 11:48:15] [DOCS] Veifying Account  - 
+[2023-02-19 11:48:15] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 11:48:27] [INFO] Recieved 
+[2023-02-19 11:48:27] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 11:48:27] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 11:48:30] [INFO] Placing Limit Order  at 0.202:24619.8
+[2023-02-19 11:48:30] [INFO] Placing Limit Order  at 0.202:24599.8
+[2023-02-19 11:48:31] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 11:48:31] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 11:48:32] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 11:48:32] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 11:48:32] [INFO] Placing StopLoss Order
+[2023-02-19 11:51:07] [DOCS] Veifying Account  - 
+[2023-02-19 11:51:07] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 11:51:22] [INFO] Recieved 
+[2023-02-19 11:51:22] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 11:51:22] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 11:51:24] [INFO] Placing Limit Order  at 0.202:24619.8
+[2023-02-19 11:51:25] [INFO] Placing Limit Order  at 0.202:24599.8
+[2023-02-19 11:51:26] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 11:51:26] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 11:51:27] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 11:51:27] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 11:51:27] [INFO] Placing StopLoss Order
+[2023-02-19 11:57:39] [DOCS] Veifying Account  - 
+[2023-02-19 11:57:39] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 11:57:59] [INFO] Recieved 
+[2023-02-19 11:57:59] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 11:57:59] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 11:58:00] [INFO] Placing Limit Order  at 0.202:24619.8
+[2023-02-19 11:58:01] [INFO] Placing Limit Order  at 0.202:24599.8
+[2023-02-19 11:58:02] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 11:58:02] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 11:58:02] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 11:58:03] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 11:58:03] [INFO] Placing StopLoss Order
+[2023-02-19 12:00:44] [DOCS] Veifying Account  - 
+[2023-02-19 12:00:44] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-19 12:00:56] [INFO] Open New Market Trade for Signal for SYMBOL - BTCUSDT
+[2023-02-19 12:00:56] [INFO] Recieved 
+[2023-02-19 12:00:56] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-19 12:00:58] [INFO] Placing Limit Order  at 0.203:24619.8
+[2023-02-19 12:00:58] [INFO] Placing Limit Order  at 0.203:24599.8
+[2023-02-19 12:01:00] [INFO] 24777: Placing Take Profit Orders 0.101
+[2023-02-19 12:01:00] [INFO] 24857: Placing Take Profit Orders 0.101
+[2023-02-19 12:01:00] [INFO] 25101: Placing Take Profit Orders 0.101
+[2023-02-19 12:01:00] [INFO] 25588: Placing Take Profit Orders 0.101
+[2023-02-19 12:01:00] [INFO] Placing StopLoss Order
+[2023-02-20 05:37:01] [DOCS] Veifying Account  - 
+[2023-02-20 05:37:01] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-20 05:37:26] [INFO] Recieved 
+[2023-02-20 05:37:26] [INFO] Open New Market Trade for Signal for SYMBOL - EOSUSDT
+[2023-02-20 05:37:26] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-20 05:37:27] [INFO] Placing Limit Order  at 2584.0:1.247
+[2023-02-20 05:37:28] [INFO] Placing Limit Order  at 2584.0:1.266
+[2023-02-20 05:37:28] [INFO] Placing Limit Order  at 2584.0:1.285
+[2023-02-20 05:37:28] [INFO] 1.235: Placing Take Profit Orders 3876.0
+[2023-02-20 05:37:29] [INFO] 1.215: Placing Take Profit Orders 3876.0
+[2023-02-20 05:37:29] [INFO] Placing StopLoss Order
+[2023-02-20 06:27:45] [DOCS] Veifying Account  - 
+[2023-02-20 06:27:45] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-20 06:30:34] [DOCS] Veifying Account  - 
+[2023-02-20 06:30:34] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:49:15] [DOCS] Veifying Account  - 
+[2023-02-23 07:49:15] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:49:34] [DOCS] Veifying Account  - 
+[2023-02-23 07:49:34] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:50:04] [DOCS] Veifying Account  - 
+[2023-02-23 07:50:04] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:50:30] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:50:30] [DOCS] Veifying Account  - 
+[2023-02-23 07:51:09] [DOCS] Veifying Account  - 
+[2023-02-23 07:51:09] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:51:43] [DOCS] Veifying Account  - 
+[2023-02-23 07:51:43] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:52:13] [DOCS] Veifying Account  - 
+[2023-02-23 07:52:13] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:52:53] [DOCS] Veifying Account  - 
+[2023-02-23 07:52:53] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 07:52:57] [DOCS] Recd - 
+[2023-02-23 07:54:01] [DOCS] Veifying Account  - 
+[2023-02-23 07:54:01] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:11:49] [DOCS] Recd - 
+[2023-02-23 08:11:49] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-23 08:11:49] [DOCS] [object Object] - 
+[2023-02-23 08:11:49] [INFO] Recieved 
+[2023-02-23 08:11:49] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:11:52] [ERROR] Orders have failed placing
+[2023-02-23 08:19:03] [DOCS] Veifying Account  - 
+[2023-02-23 08:19:03] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:20:02] [DOCS] Recd - 
+[2023-02-23 08:20:02] [INFO] Recieved 
+[2023-02-23 08:20:02] [DOCS] [object Object] - 
+[2023-02-23 08:20:02] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:20:02] [INFO] 100: Setting Leverage for the Trade 
+[2023-02-23 08:20:40] [DOCS] Veifying Account  - 
+[2023-02-23 08:20:40] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:20:52] [DOCS] Recd - 
+[2023-02-23 08:20:52] [INFO] Recieved 
+[2023-02-23 08:20:52] [DOCS] [object Object] - 
+[2023-02-23 08:20:52] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:20:52] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:20:55] [ERROR] Orders have failed placing
+[2023-02-23 08:21:35] [DOCS] Veifying Account  - 
+[2023-02-23 08:21:35] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:21:38] [DOCS] Recd - 
+[2023-02-23 08:21:38] [INFO] Recieved 
+[2023-02-23 08:21:38] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:21:38] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:21:38] [DOCS] [object Object] - 
+[2023-02-23 08:21:40] [ERROR] Orders have failed placing
+[2023-02-23 08:23:07] [DOCS] Veifying Account  - 
+[2023-02-23 08:23:07] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:23:17] [DOCS] Recd - 
+[2023-02-23 08:23:17] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:23:17] [DOCS] [object Object] - 
+[2023-02-23 08:23:17] [INFO] Recieved 
+[2023-02-23 08:23:17] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:23:19] [ERROR] Orders have failed placing
+[2023-02-23 08:24:52] [DOCS] Veifying Account  - 
+[2023-02-23 08:24:52] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:25:04] [DOCS] Recd - 
+[2023-02-23 08:25:04] [INFO] Recieved 
+[2023-02-23 08:25:04] [DOCS] [object Object] - 
+[2023-02-23 08:25:04] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:25:04] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:25:06] [ERROR] Orders have failed placing
+[2023-02-23 08:25:49] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:25:49] [DOCS] Veifying Account  - 
+[2023-02-23 08:25:55] [DOCS] Recd - 
+[2023-02-23 08:25:55] [INFO] Recieved 
+[2023-02-23 08:25:55] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:25:55] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:25:55] [DOCS] [object Object] - 
+[2023-02-23 08:25:58] [ERROR] Orders have failed placing
+[2023-02-23 08:27:13] [DOCS] Veifying Account  - 
+[2023-02-23 08:27:13] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:27:27] [DOCS] Recd - 
+[2023-02-23 08:27:27] [INFO] Recieved 
+[2023-02-23 08:27:27] [DOCS] [object Object] - 
+[2023-02-23 08:27:27] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:27:27] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:27:30] [ERROR] Orders have failed placing
+[2023-02-23 08:28:25] [DOCS] Veifying Account  - 
+[2023-02-23 08:28:25] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:28:27] [DOCS] Recd - 
+[2023-02-23 08:28:27] [INFO] Recieved 
+[2023-02-23 08:28:27] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:28:27] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:28:27] [DOCS] [object Object] - 
+[2023-02-23 08:28:30] [ERROR] Orders have failed placing
+[2023-02-23 08:29:31] [DOCS] Veifying Account  - 
+[2023-02-23 08:29:31] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:30:00] [DOCS] Veifying Account  - 
+[2023-02-23 08:30:00] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:30:05] [DOCS] Recd - 
+[2023-02-23 08:30:05] [INFO] Recieved 
+[2023-02-23 08:30:05] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:30:05] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:30:05] [DOCS] [object Object] - 
+[2023-02-23 08:30:07] [INFO] Placing Limit Order  at 4199.2:0
+[2023-02-23 08:30:07] [INFO] Placing Limit Order  at 4199.2:.
+[2023-02-23 08:30:08] [INFO] Placing Limit Order  at 4199.2:3
+[2023-02-23 08:30:08] [INFO] Placing Limit Order  at 4199.2:2
+[2023-02-23 08:30:09] [INFO] Placing Limit Order  at 4199.2:5
+[2023-02-23 08:30:09] [INFO] Placing Limit Order  at 4199.2:4
+[2023-02-23 08:30:09] [INFO] Placing Limit Order  at 4199.2:0
+[2023-02-23 08:30:09] [ERROR] Orders have failed placing
+[2023-02-23 08:31:29] [DOCS] Veifying Account  - 
+[2023-02-23 08:31:29] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-23 08:31:45] [DOCS] Recd - 
+[2023-02-23 08:31:45] [INFO] Recieved 
+[2023-02-23 08:31:45] [INFO] Setting Leverage for the Trade 100
+[2023-02-23 08:31:45] [DOCS] [object Object] - 
+[2023-02-23 08:31:45] [INFO] Open New Market Trade for Signal for SYMBOL - SXPUSDT
+[2023-02-23 08:31:48] [INFO] Placing Limit Order  at 29394.5:0.32540
+[2023-02-23 08:31:48] [INFO] 0.330281: Placing Take Profit Orders 14697.2
+[2023-02-23 08:31:49] [INFO] 0.333535: Placing Take Profit Orders 14697.2
+[2023-02-23 08:31:49] [INFO] Placing StopLoss Order

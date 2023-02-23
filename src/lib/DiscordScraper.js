@@ -1,8 +1,10 @@
 import WS from "ws";
-import { processMessage } from "./processor_darth.js";
+import logger from "./logger.js";
+import { processMessageA } from "./processor_darth.js";
+import { processMessageB } from "./processor_bin.js";
 
 class DiscordScraper {
-    constructor(eventEmitter) {
+    constructor(eventEmitter,config) {
         this.token;
         this.url = "wss://gateway-us-east1-b.discord.gg/?encoding=json"
         this.ws;
@@ -10,6 +12,8 @@ class DiscordScraper {
         this.ping = 0;
         this.lastheat = 0
         this.e=eventEmitter;
+        this.channelIdA= config.channelIdA
+        this.channelIdB= config.channelIdB
     }
 
     async connect(token) {
@@ -63,13 +67,19 @@ class DiscordScraper {
                       this.ping = this.lastheat - Date.now() 
                       break;
                 }
-
-                switch(event){
+                 switch(event){
                     case 'MESSAGE_CREATE':
-                         const takePosition = processMessage(d);
-                         if(takePosition !== 'Not A Signal')this.e.emit('tradeSignal',takePosition);
-                         console.log(takePosition)
-                }
+                        if(d.channel_id === this.channelIdA){
+                            logger.docs('Recd')
+                            const takePosition = processMessageA(d);
+                           if(takePosition !== 'Not A Signal')this.e.emit('tradeSignal',takePosition);
+                         } else if(d.channel_id === this.channelIdB){
+                            logger.docs('Recd')
+                            const takePosition = processMessageB(d);
+                           if(takePosition !== 'Not A Signal')this.e.emit('tradeSignal',takePosition);
+                         }
+                         
+                }   
             } catch (e) {
                  console.log(e)
             }   

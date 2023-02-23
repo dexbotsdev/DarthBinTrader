@@ -11,7 +11,7 @@ const tpRegex = /[^*\) ]+['\n']/mg
 
 let m;
 
-export const processMessageA = (d) => {
+export const processMessageB = (d) => {
     const mesg = d.content
     const result = {
         userName: d.author.username,
@@ -28,7 +28,11 @@ export const processMessageA = (d) => {
         const symbol = mesg.match(regexA)[0];
         if (!symbol.endsWith('USDT')) return 'Not A Signal';
 
-        const entryRange = getEntryPrice(mesg);
+        const data =  mesg.split("\n");
+
+        console.log(data[data.indexOf('Entry Targets:')+1]);
+
+        const entryRange = [data[data.indexOf('Entry Targets:')+1]];
         const cmpFlag = isCMPEnabled(mesg);
 
         result.tokenSymbol = symbol.replace('/','');
@@ -89,9 +93,8 @@ const getSide = (mesg) => {
 
 const getStopLoss = (mesg) => {
 
-    const start = mesg.indexOf("SL:") + 3;
-    const extract = mesg.substring(start, start + 10);
-     return extract.split(" ")[1];
+    const start = mesg.split("\n");
+      return start[start.length-1].split('-')[0];
 }
 
 const getTPLevels = (mesg) => {
