@@ -1,0 +1,14 @@
+{
+"discordToken": "",  
+"apiKey":"",
+"secretKey":"",
+"testnet":true,
+"channelIdA": "1075640939999146005", 
+"channelIdB": "1078148978941640754", 
+"fundsPerTrade": 100, 
+"numberOfTakeProfits": 2,   
+"leverage": 100,
+"closePositionAfterXMinutes": 300,
+"maximumNumberOfOpenPositions": 5, 
+"cancelTrade": 60, 
+}
