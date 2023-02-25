@@ -1,7 +1,7 @@
 import Binance from "node-binance-api";
 import logger from "./logger.js";
 
-class DarthBinTrader {
+class BinTrader {
   constructor(config) {
     this.bin = new Binance().options({
       APIKEY: config.apiKey,
@@ -221,4 +221,4 @@ class DarthBinTrader {
 
 }
 
-export default DarthBinTrader;
+export default BinTrader;

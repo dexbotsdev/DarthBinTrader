@@ -1,6 +1,7 @@
 import DiscordScraper from "./src/lib/DiscordScraper.js"
-import DarthBinTrader from "./src/lib/DarthBinTrader.js"
-import { EventEmitter } from "emitter";
+import BinTrader from "./src/lib/BinTrader.js"
+import pkg from "emitter";
+import EventEmitter from pkg;
 import fs from 'fs'
 import logger from "./src/lib/logger.js";
 import TradeCleaner from "./src/lib/TradeCleaner.js";
@@ -15,7 +16,7 @@ async function start() {
         }
         config= JSON.parse(data); 
         let ds = new DiscordScraper(eventEmitter,config);  
-        let ts = new DarthBinTrader(config);
+        let ts = new BinTrader(config);
         let tc=new TradeCleaner(config);
 
         ds.connect(config.discordToken);
