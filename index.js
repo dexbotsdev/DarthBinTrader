@@ -1,11 +1,11 @@
 import DiscordScraper from "./src/lib/DiscordScraper.js"
 import BinTrader from "./src/lib/BinTrader.js"
 import pkg from "emitter";
-import EventEmitter from pkg;
 import fs from 'fs'
 import logger from "./src/lib/logger.js";
 import TradeCleaner from "./src/lib/TradeCleaner.js";
 
+const {EventEmitter} = pkg;
 const eventEmitter = new EventEmitter();
 let config=null; 
 async function start() {
