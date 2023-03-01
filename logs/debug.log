@@ -758,3 +758,26 @@
 [2023-02-25 13:43:50] [INFO] Added Binance Darth Server TRADESIGNAL listener.
 [2023-02-25 19:44:44] [INFO] Added Binance Darth Server TRADESIGNAL listener.
 [2023-02-25 19:44:44] [DOCS] Veifying Account  - 
+[2023-02-28 12:01:33] [DOCS] Veifying Account  - 
+[2023-02-28 12:01:33] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-28 12:02:34] [DOCS] Veifying Account  - 
+[2023-02-28 12:02:34] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-02-28 13:08:51] [DOCS] Veifying Account  - 
+[2023-02-28 13:08:51] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-03-01 05:54:45] [DOCS] Veifying Account  - 
+[2023-03-01 05:54:45] [INFO] Added Binance Darth Server TRADESIGNAL listener.
+[2023-03-01 05:56:10] [DOCS] Recd - 
+[2023-03-01 05:56:10] [INFO] Setting Leverage for the Trade 100
+[2023-03-01 05:56:10] [INFO] Recieved 
+[2023-03-01 05:56:10] [INFO] Open New Market Trade for Signal for SYMBOL - KAVAUSDT
+[2023-03-01 05:56:11] [ERROR] Not Enough USDT Balance in account 
+[2023-03-01 05:56:41] [DOCS] Recd - 
+[2023-03-01 05:56:41] [INFO] Recieved 
+[2023-03-01 05:56:41] [INFO] Open New Market Trade for Signal for SYMBOL - KSMUSDT
+[2023-03-01 05:56:41] [INFO] Setting Leverage for the Trade 100
+[2023-03-01 05:56:41] [ERROR] Not Enough USDT Balance in account 
+[2023-03-01 05:58:16] [DOCS] Recd - 
+[2023-03-01 05:58:16] [INFO] Recieved 
+[2023-03-01 05:58:16] [INFO] Open New Market Trade for Signal for SYMBOL - ICPUSDT
+[2023-03-01 05:58:16] [INFO] Setting Leverage for the Trade 100
+[2023-03-01 05:58:16] [ERROR] Not Enough USDT Balance in account 

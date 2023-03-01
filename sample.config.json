@@ -11,4 +11,5 @@
 "closePositionAfterXMinutes": 300,
 "maximumNumberOfOpenPositions": 5, 
 "cancelTrade": 60, 
+"stoploss":7
 }

@@ -5,8 +5,7 @@ class BinTrader {
   constructor(config) {
     this.bin = new Binance().options({
       APIKEY: config.apiKey,
-      APISECRET: config.secretKey,
-      test: config.testnet,
+      APISECRET: config.secretKey, 
       hedgeMode: false
     });
     this.investAmount = config.fundsPerTrade;
@@ -154,12 +153,13 @@ class BinTrader {
           }
         }
 
-        logger.info('Placing StopLoss Order');
 
         try {
 
+          const slPrice  = signalQuote.askPrice (1 - this.stopLoss/100);
+          logger.info('Placing StopLoss Order @ 7% '+slPrice);
 
-          await this.stopLossOrder(tradeSignal.side, coin, entrys.length * qttyPerSell.toFixed(symbol.quantityPrecision), tradeSignal.stopLoss);
+          await this.stopLossOrder(tradeSignal.side, coin, entrys.length * qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision));
 
         } catch (error) {
 
