@@ -16,6 +16,8 @@ const options = {
 	},
 	"path": {        // if write is true, the library writes the logs to a path
 		"debug_log": "./logs/debug.log",  // all logs
+		"info_log": "./logs/info.log",  // all logs
+		"warning_log": "./logs/warning.log",  // all logs
 		"error_log": "./logs/errors.log", // only errors logs
 	},
 	"palette": {

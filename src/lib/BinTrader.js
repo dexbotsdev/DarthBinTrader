@@ -6,7 +6,8 @@ class BinTrader {
     this.bin = new Binance().options({
       APIKEY: config.apiKey,
       APISECRET: config.secretKey, 
-      hedgeMode: false
+      hedgeMode: false,
+      'family': 4,
     });
     this.investAmount = config.fundsPerTrade;
     this.tpLimits = config.numberOfTakeProfits;
@@ -17,6 +18,10 @@ class BinTrader {
     this.maximumNumberOfOpenPositions = config.maximumNumberOfOpenPositions;
     this.entryType = config.entryType;
     this.cancelTrade = config.cancelTrade;
+    this.duplicate = [];
+
+    logger.docs('Client Connected to Binance ');
+
   }
 
   futuresTime = async () => {
@@ -91,8 +96,30 @@ class BinTrader {
     });
   }
 
+  takeProfitLimits = (takeProfits, entryPrice, quotePrice)=>{
+
+    const newTps =[];
+
+    takeProfits.forEach(element => {
+          const ntp = quotePrice * element/entryPrice;
+          newTps.push(ntp);
+    });
+
+    return newTps;
+
+  }
 
   tradeEnterSignal = async (tradeSignal, config) => {
+
+    if (this.duplicate.includes(tradeSignal.tokenSymbol+":"+tradeSignal+entryRange+":"+tradeSignal.side) ) {
+      logger.info('Signal has been Traded already so omitting')
+      return;
+    } else {
+
+      this.duplicate.push(tradeSignal.tokenSymbol+":"+tradeSignal+entryRange+":"+tradeSignal.side) 
+  
+
+
     logger.info('Setting Leverage for the Trade '+ config.leverage)
 
     console.log(tradeSignal)
@@ -100,7 +127,6 @@ class BinTrader {
     await this.bin.futuresLeverage(coin, config.leverage);
 
     await this.bin.futuresMarginType(coin, "ISOLATED");
-
 
 
 
@@ -118,37 +144,33 @@ class BinTrader {
 
       if (tradeSignal.side === 'LONG') {
         let entrys = tradeSignal.entryRange;
-        let qttyPerTrade = (config.leverage * config.fundsPerTrade / signalQuote.askPrice) / entrys.length;
+        let qttyPerTrade = (config.leverage * config.fundsPerTrade / signalQuote.askPrice);
         //console.log(config.leverage* config.fundsPerTrade);
         //console.log(config.leverage* config.fundsPerTrade/ signalQuote.askPrice);
         // console.log((config.leverage * config.fundsPerTrade / signalQuote.askPrice) / entrys.length);
         //console.log('qttyPerTrade.toFixed(symbol.quantityPrecision)='+qttyPerTrade.toFixed(symbol.quantityPrecision));
+        let newTps = takeProfitLimits(tradeSignal.takeProfit,tradeSignal.entryRange,signalQuote.askPrice);
 
-        for (var i = 0; i < entrys.length; i++) {
-          logger.info('Placing Limit Order  at ' + qttyPerTrade.toFixed(symbol.quantityPrecision) + ":" + entrys[i]);
+           logger.info('Placing Limit Order  at ' + qttyPerTrade.toFixed(symbol.quantityPrecision) + ":" + signalQuote.askPrice);
           try {
-            await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(entrys[i]).toFixed(symbol.pricePrecision));
+            await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
           } catch (error) {
+            console.log(error)
 
           }
+ 
 
-        }
+       
 
-        const allOpenOrders = await this.bin.futuresOpenOrders(coin);
-        if (allOpenOrders.length === 0) {
-          logger.error('Orders have failed placing');
-          return;
-        }
-
-
-        let takeProfits = tradeSignal.takeProfit.length > config.numberOfTakeProfits ? config.numberOfTakeProfits : tradeSignal.takeProfit.length;
-        let qttyPerSell = qttyPerTrade * entrys.length / takeProfits;
+        let takeProfits = tradeSignal.takeProfit.length > config.numberOfTakeProfits ? config.numberOfTakeProfits : newTps.length;
+        let qttyPerSell = qttyPerTrade  / takeProfits;
         for (var s = 0; s < takeProfits; s++) {
-          logger.info('Placing Take Profit Orders ' + qttyPerSell.toFixed(symbol.quantityPrecision), tradeSignal.takeProfit[s]);
+          logger.info('Placing Take Profit Orders ' + qttyPerSell.toFixed(symbol.quantityPrecision) +":"+newTps[s]);
           try {
 
-            await this.takeProfitOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), tradeSignal.takeProfit[s]);
+            await this.takeProfitOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), newTps[s]);
           } catch (error) {
+            console.log(error)
 
           }
         }
@@ -156,67 +178,73 @@ class BinTrader {
 
         try {
 
-          const slPrice  = signalQuote.askPrice (1 - this.stopLoss/100);
+          const slPrice  = signalQuote.bidPrice *(1 - this.stopLoss/100);
           logger.info('Placing StopLoss Order @ 7% '+slPrice);
 
-          await this.stopLossOrder(tradeSignal.side, coin, entrys.length * qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision));
+          await this.stopLossOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision));
 
         } catch (error) {
+          console.log(error)
 
         }
       }
       else if (tradeSignal.side === 'SHORT') {
         let entrys = tradeSignal.entryRange;
-        let qttyPerTrade = (config.leverage * config.fundsPerTrade / signalQuote.askPrice) / entrys.length;
+        let qttyPerTrade = (config.leverage * config.fundsPerTrade / signalQuote.askPrice) ;
         // console.log(config.leverage* config.fundsPerTrade);
         // console.log(config.leverage* config.fundsPerTrade/ signalQuote.bidPrice);
         // console.log((config.leverage * config.fundsPerTrade / signalQuote.askPrice) / entrys.length);
         // console.log('qttyPerTrade.toFixed(symbol.quantityPrecision)='+qttyPerTrade.toFixed(symbol.quantityPrecision));
+        let newTps = this.takeProfitLimits(tradeSignal.takeProfit,tradeSignal.entryRange,signalQuote.bidPrice);
 
-        for (var i = 0; i < entrys.length; i++) {
-          logger.info('Placing Limit Order  at ' + qttyPerTrade.toFixed(symbol.quantityPrecision) + ":" + entrys[i]);
+           logger.info('Placing Limit Order  at ' + qttyPerTrade.toFixed(symbol.quantityPrecision) + ":" + signalQuote.askPrice);
 
           try {
 
 
-            await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(entrys[i]).toFixed(symbol.pricePrecision));
+            await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
 
           } catch (error) {
+            console.log(error)
 
-          }
-
-
-        }
-        let takeProfits = tradeSignal.takeProfit.length > config.numberOfTakeProfits ? config.numberOfTakeProfits : tradeSignal.takeProfit.length;
-        let qttyPerSell = qttyPerTrade * entrys.length / takeProfits;
+          } 
+        let takeProfits = tradeSignal.takeProfit.length > config.numberOfTakeProfits ? config.numberOfTakeProfits : newTps.length;
+        let qttyPerSell = qttyPerTrade  / takeProfits;
         for (var s = 0; s < takeProfits; s++) {
-          logger.info('Placing Take Profit Orders ' + qttyPerSell.toFixed(symbol.quantityPrecision), tradeSignal.takeProfit[s]);
+          logger.info('Placing Take Profit Orders ' + qttyPerSell.toFixed(symbol.quantityPrecision) +":"+ newTps[s]);
           try {
 
 
-            await this.takeProfitOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), tradeSignal.takeProfit[s]);
+            await this.takeProfitOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), newTps[s]);
 
           } catch (error) {
-
+            console.log(error)
           }
         }
 
         logger.info('Placing StopLoss Order');
         try {
 
-
-          await this.stopLossOrder(tradeSignal.side, coin, entrys.length * qttyPerSell.toFixed(symbol.quantityPrecision), tradeSignal.stopLoss);
-
+          const slPrice  = signalQuote.askPrice* (1 + this.stopLoss/100);
+          logger.info('Placing StopLoss Order @ 7% '+slPrice);          
+          await this.stopLossOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision));
         } catch (error) {
+          console.log(error)
 
         }
 
       }
 
     }
+  }
 
 
+  }
 
+
+  getOpenTrades = async (tradeSignal)=>{ 
+    const openTrades = await this.bin.futuresAllOrders();  
+    return openTrades;
   }
 
 }

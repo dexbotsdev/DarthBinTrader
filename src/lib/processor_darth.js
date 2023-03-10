@@ -12,8 +12,9 @@ const tpRegex = /[^*\) ]+['\n']/mg
 let m;
 
 export const processMessageA = (d) => {
-    const mesg = d.content
-    const result = {
+
+    const mesg = d.embeds[0].description;
+     const result = {
         userName: d.author.username,
         tokenSymbol: '',
         enterAtCmp: false,
@@ -34,7 +35,7 @@ export const processMessageA = (d) => {
         result.tokenSymbol = symbol.replace('/','');
         result.enterAtCmp = cmpFlag;
         result.side = getSide(mesg);
-         result.entryRange=entryRange;
+         result.entryRange=entryRange[0];
         result.takeProfit = getTPLevels(mesg)
         result.stopLoss = getStopLoss(mesg)
 

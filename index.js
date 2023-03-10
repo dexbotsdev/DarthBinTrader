@@ -7,6 +7,7 @@ import TradeCleaner from "./src/lib/TradeCleaner.js";
 
 const {EventEmitter} = pkg; 
 const eventEmitter = new EventEmitter();
+eventEmitter.setMaxListeners(1);
 let config=null; 
 async function start() {
     fs.readFile('./config.json', 'utf8', async (error, data) => {
@@ -33,14 +34,24 @@ async function start() {
 
         eventEmitter.on('tradeSignal', async (tradeSignal) => {
             logger.info('Recieved ');
-
+            console.log(tradeSignal);
             logger.info('Open New Market Trade for Signal for SYMBOL - '+ tradeSignal.tokenSymbol)
-             
-            await ts.tradeEnterSignal(tradeSignal,config);
-            await tc.autoCancelAfterTime(tradeSignal.tokenSymbol);
+            const openTrades = await ts.getOpenTrades(tradeSignal);
+            console.log(openTrades);
+
+             await ts.tradeEnterSignal(tradeSignal,config);
+            // await tc.autoCancelAfterTime(tradeSignal.tokenSymbol);
 
             
         });  
+
+
+        eventEmitter.on('Disconnected', (message) => {
+            logger.info('Disconnected -- need to restart '+message.toUpperCase());
+            eventEmitter.removeAllListeners();
+            start();
+
+           });
         
     }) 
  } 

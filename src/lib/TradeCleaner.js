@@ -25,9 +25,9 @@ class TradeCleaner {
     autoCancelAfterTime = async(symbol)=>{
 
         return setInterval(async () => {
-            await this.bin.futuresCountdownCancelAll( symbol, this.cancelTrade*60*1000 )
+            await this.bin.futuresCountdownCancelAll( symbol, this.cancelTrade*1000 )
 
-        }, 30000)
+        }, 1000)
 
       }
  

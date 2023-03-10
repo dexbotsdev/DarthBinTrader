@@ -7,13 +7,14 @@ const entryEnd = "NOW"
 const entryEnd2 = "SPLIT";
 const stopLossRegex = /[^SL:\ ]+/gi
 
-const tpRegex = /[^*\) ]+['\n']/mg
+const tpRegex = /[^*\) ]+['\n']/gim
 
 let m;
 
 export const processMessageB = (d) => {
-    const mesg = d.content
-    const result = {
+
+    const mesg = d.embeds[0].description;
+     const result = {
         userName: d.author.username,
         tokenSymbol: '',
         enterAtCmp: false,
@@ -26,24 +27,38 @@ export const processMessageB = (d) => {
 
     try {
         const symbol = mesg.match(regexA)[0];
+        console.log(symbol);
+
         if (!symbol.endsWith('USDT')) return 'Not A Signal';
+        
+        const addonmesg = d.content;
 
-        const data =  mesg.split("\n");
+        if(addonmesg !== "<@&1056233193377894480>") return 'Not A Signal';
 
-        console.log(data[data.indexOf('Entry Targets:')+1]);
+        console.log( mesg.indexOf('Entry Targets:')+ "Entry Targets:".length);
+        console.log( mesg.indexOf('Take-Profit Targets:') );
 
-        const entryRange = [data[data.indexOf('Entry Targets:')+1]];
+        let entryRange = mesg.substring(mesg.indexOf('Entry Targets:')+ "Entry Targets:".length,mesg.indexOf('Take-Profit Targets:') );
+        entryRange = entryRange.replace(/[^\d.-]/g, '');
+        console.log(entryRange)
+
         const cmpFlag = isCMPEnabled(mesg);
+        console.log(cmpFlag)
 
         result.tokenSymbol = symbol.replace('/','');
         result.enterAtCmp = cmpFlag;
         result.side = getSide(mesg);
+
+        console.log(getSide(mesg))
+
+
          result.entryRange=entryRange;
-        result.takeProfit = getTPLevels(mesg)
-        result.stopLoss = getStopLoss(mesg)
+        result.takeProfit = getTPLevels(mesg) 
 
 
     } catch (error) {
+
+        console.log(error)
          return 'Not A Signal';
     }
 
@@ -101,7 +116,10 @@ const getTPLevels = (mesg) => {
 
     const tpLevels = [];
 
+    console.log(mesg.match(/[^*\) ]+['\r']/gim))
     const tpLevelMatch = mesg.match(tpRegex);
+
+    console.log(tpLevelMatch)
 
     for (var i = 0; i < tpLevelMatch.length; i++) {
         const lastOne = i

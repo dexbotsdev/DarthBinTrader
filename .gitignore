@@ -1,2 +1,5 @@
 /node_modules
 config.json
+config copy.json
+logs/debug.log
+logs/errors.log
