@@ -1,0 +1,15 @@
+{
+"discordToken": "ODk2Nzk4OTY1MjAxMjQ0MTYw.GS47Tn.4xhl_GfF3KlY-Q8iyH-URiaF_ugM4xZueZ6RfU",  
+"apiKey":"JwenEFN2jDoADT2j4de7vfbjouxsBWjwIFTYihaVMQpmyoVYJbDP4dipMCKygFgt",
+"secretKey":"0HxPpM4Co7Q7yEqhfPBZHpTJ6jhQiUKZr4283o65EFVsTbx5mFDMh2bhql3UnPcQ",
+"channelIdA": "1054871009917939753", 
+"channelIdB": "1054893506482667571 ", 
+"fundsPerTrade": 50, 
+"numberOfTakeProfits": 2,   
+"leverage": 20,
+"closePositionAfterXMinutes": 300,
+"maximumNumberOfOpenPositions": 5, 
+"cancelTrade": 1,
+"blacklistCoins":[],
+"stopLoss":7 
+}

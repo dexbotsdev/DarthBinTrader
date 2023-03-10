@@ -10,7 +10,7 @@ const eventEmitter = new EventEmitter();
 eventEmitter.setMaxListeners(1);
 let config=null; 
 async function start() {
-    fs.readFile('./config.json', 'utf8', async (error, data) => {
+    fs.readFile('./client.config.json', 'utf8', async (error, data) => {
         if(error){
            console.log(error);
            return;
