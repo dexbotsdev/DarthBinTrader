@@ -33,7 +33,7 @@ export const processMessageB = (d) => {
         
         const addonmesg = d.content;
 
-        if(addonmesg !== "<@&1056233193377894480>") return 'Not A Signal';
+        if(mesg.toLowerCase().indexOf('closed')>0 || mesg.toLowerCase().indexOf('expired')>0 || mesg.toLowerCase().indexOf('period')>0) return 'Not A Signal';
 
         console.log( mesg.indexOf('Entry Targets:')+ "Entry Targets:".length);
         console.log( mesg.indexOf('Take-Profit Targets:') );

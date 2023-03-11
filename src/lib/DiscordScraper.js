@@ -108,14 +108,11 @@ class DiscordScraper {
 
               if (Number(d.channel_id) === Number(this.channelIdA)) {
                 logger.info('Recd A')
-                logger.info(d);
-                const takePosition1A = processMessageA(d);
+                 const takePosition1A = processMessageA(d);
                 if (takePosition1A !== 'Not A Signal') this.e.emit('tradeSignal', takePosition1A);
               }
               else if (Number(d.channel_id) === Number(this.channelIdB)) {
-                logger.info('Recd B')
-                logger.info(d);
-
+                logger.info('Recd B') 
                    const takePosition1B = processMessageB(d);
                   if (takePosition1B !== 'Not A Signal') this.e.emit('tradeSignal', takePosition1B); 
               }

@@ -111,12 +111,12 @@ class BinTrader {
 
   tradeEnterSignal = async (tradeSignal, config) => {
 
-    if (this.duplicate.includes(tradeSignal.tokenSymbol+":"+tradeSignal+entryRange+":"+tradeSignal.side) ) {
+    if (this.duplicate.includes(tradeSignal.tokenSymbol+":"+tradeSignal.entryRange+":"+tradeSignal.side) ) {
       logger.info('Signal has been Traded already so omitting')
       return;
     } else {
 
-      this.duplicate.push(tradeSignal.tokenSymbol+":"+tradeSignal+entryRange+":"+tradeSignal.side) 
+      this.duplicate.push(tradeSignal.tokenSymbol+":"+tradeSignal.entryRange+":"+tradeSignal.side) 
   
 
 
@@ -149,7 +149,7 @@ class BinTrader {
         //console.log(config.leverage* config.fundsPerTrade/ signalQuote.askPrice);
         // console.log((config.leverage * config.fundsPerTrade / signalQuote.askPrice) / entrys.length);
         //console.log('qttyPerTrade.toFixed(symbol.quantityPrecision)='+qttyPerTrade.toFixed(symbol.quantityPrecision));
-        let newTps = takeProfitLimits(tradeSignal.takeProfit,tradeSignal.entryRange,signalQuote.askPrice);
+        let newTps = this.takeProfitLimits(tradeSignal.takeProfit,tradeSignal.entryRange,signalQuote.askPrice);
 
            logger.info('Placing Limit Order  at ' + qttyPerTrade.toFixed(symbol.quantityPrecision) + ":" + signalQuote.askPrice);
           try {

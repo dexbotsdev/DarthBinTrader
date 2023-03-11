@@ -3,7 +3,7 @@ import fs from 'fs'
 let config=null; 
 
 async function start() {
-    fs.readFile('./config.json', 'utf8', async (error, data) => {
+    fs.readFile('./client.config.json', 'utf8', async (error, data) => {
         if(error){
            console.log(error);
            return;
@@ -15,7 +15,7 @@ async function start() {
             let i=0;
 
             resp.map((item)=>{
-                console.log(i++ +":"+item.symbol+":"+ new Date(item.updateTime).toUTCString()+":"+ new Date(item.time).toUTCString())
+                console.log(i++ +":"+item.symbol+":"+ new Date(item.updateTime).toString()+":"+ new Date(item.time).toString())
                 console.log(item)
             })
         })

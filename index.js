@@ -36,12 +36,14 @@ async function start() {
             logger.info('Recieved ');
             console.log(tradeSignal);
             logger.info('Open New Market Trade for Signal for SYMBOL - '+ tradeSignal.tokenSymbol)
-            const openTrades = await ts.getOpenTrades(tradeSignal);
-            console.log(openTrades);
-
-             await ts.tradeEnterSignal(tradeSignal,config);
-            // await tc.autoCancelAfterTime(tradeSignal.tokenSymbol);
-
+            
+            try{
+                 ts.tradeEnterSignal(tradeSignal,config);
+     
+            }catch(error){
+                logger.error(error)
+            }
+            
             
         });  
 

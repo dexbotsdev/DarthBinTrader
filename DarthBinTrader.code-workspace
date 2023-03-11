@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../BinLaunchSniper"
+		},
+		{
+			"path": "../BinLeadFollower"
+		}
+	],
+	"settings": {}
+}
