@@ -16,9 +16,12 @@ async function start() {
 
             resp.map((item)=>{
                 console.log(i++ +":"+item.symbol+":"+ new Date(item.updateTime).toString()+":"+ new Date(item.time).toString())
-                console.log(item)
+                //console.log(item)
             })
         })
+
+
+        console.log(await ts.futuresAccount())
         
     }) 
  } 
