@@ -202,7 +202,7 @@ class BinTrader {
           try {
 
 
-            await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
+            await this.bin.futuresSell(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
 
           } catch (error) {
             console.log(error)
