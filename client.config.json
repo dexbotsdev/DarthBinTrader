@@ -1,15 +1,18 @@
 {
-"discordToken": "ODk2Nzk4OTY1MjAxMjQ0MTYw.GS47Tn.4xhl_GfF3KlY-Q8iyH-URiaF_ugM4xZueZ6RfU",  
-"apiKey":"JwenEFN2jDoADT2j4de7vfbjouxsBWjwIFTYihaVMQpmyoVYJbDP4dipMCKygFgt",
-"secretKey":"0HxPpM4Co7Q7yEqhfPBZHpTJ6jhQiUKZr4283o65EFVsTbx5mFDMh2bhql3UnPcQ",
+"discordToken": "MTAyNzY0MDY2MTQxMjk1ODIxOA.Gmtmyt.hip6r-Ct2ffNkPr3NHfr9GRsxDi8moDMyK8raA",  
+"apiKey":"oKTTW70RKAIjMp2TytWl7TLMq9UZnFryaxThCL2AYP5Y16vJjVcBCQ8q1Udm44NZ",
+"secretKey":"q8AxFY0JUtKrcgxU4STQVF9dwXPsVlJrBK41ATqCvhw62xaaf4A9SyN08sC3kICU",
 "channelIdA": "1054871009917939753", 
-"channelIdB": "1054893506482667571 ", 
-"fundsPerTrade": 50, 
+"channelIdB": "1054893506482667571", 
+"channelIdC":"1078148978941640754",
+"fundsPerTrade": 0.1, 
 "numberOfTakeProfits": 2,   
-"leverage": 20,
+"leverage": 50,
 "closePositionAfterXMinutes": 300,
-"maximumNumberOfOpenPositions": 5, 
+"maximumNumberOfOpenPositions": 2, 
 "cancelTrade": 1,
 "blacklistCoins":[],
-"stopLoss":7 
+"stopLoss":7,
+"trailingStopLoss": 5,
+"tslTrigger":2
 }

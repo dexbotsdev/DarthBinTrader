@@ -1,5 +1,5 @@
 import DiscordScraper from "./src/lib/DiscordScraper.js"
-import BinTrader from "./src/lib/BinTrader.js"
+import BinTraderTSL from "./src/lib/BinTraderTSL.js"
 import pkg from "emitter";
 import fs from 'fs'
 import logger from "./src/lib/logger.js";
@@ -10,14 +10,14 @@ const eventEmitter = new EventEmitter();
 eventEmitter.setMaxListeners(1);
 let config=null; 
 async function start() {
-    fs.readFile('./client.config.json', 'utf8', async (error, data) => {
+    fs.readFile('./client.d.json', 'utf8', async (error, data) => {
         if(error){
            console.log(error);
            return;
         }
         config= JSON.parse(data); 
         let ds = new DiscordScraper(eventEmitter,config);  
-        let ts = new BinTrader(config);
+        let ts = new BinTraderTSL(config);
         let tc=new TradeCleaner(config);
 
         ds.connect(config.discordToken);
@@ -38,8 +38,10 @@ async function start() {
             logger.info('Open New Market Trade for Signal for SYMBOL - '+ tradeSignal.tokenSymbol)
             
             try{
-                 ts.tradeEnterSignal(tradeSignal,config);
-     
+               const orderData =   ts.tradeEnterSignal(tradeSignal,config);
+
+                await tc.autoCancelAfterTime(tradeSignal.tokenSymbol);
+                
             }catch(error){
                 logger.error(error)
             }

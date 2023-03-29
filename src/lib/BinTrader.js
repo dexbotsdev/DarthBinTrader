@@ -47,7 +47,7 @@ class BinTrader {
     const keys = Object.keys(balance);
     keys.map((value) => {
       if (balance[value].asset === currency) {
-        bal = parseFloat(balance[value].balance);
+        bal = parseFloat(balance[value].availableBalance);
       }
     });
 
@@ -153,7 +153,9 @@ class BinTrader {
 
            logger.info('Placing Limit Order  at ' + qttyPerTrade.toFixed(symbol.quantityPrecision) + ":" + signalQuote.askPrice);
           try {
-            await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
+           const trade =  await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
+
+           console.log(trade)
           } catch (error) {
             console.log(error)
 
@@ -168,7 +170,8 @@ class BinTrader {
           logger.info('Placing Take Profit Orders ' + qttyPerSell.toFixed(symbol.quantityPrecision) +":"+newTps[s]);
           try {
 
-            await this.takeProfitOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), newTps[s]);
+          const trade =  await this.takeProfitOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), newTps[s]);
+          console.log(trade)
           } catch (error) {
             console.log(error)
 
@@ -181,8 +184,8 @@ class BinTrader {
           const slPrice  = signalQuote.bidPrice *(1 - this.stopLoss/100);
           logger.info('Placing StopLoss Order @ 7% '+slPrice);
 
-          await this.stopLossOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision));
-
+         const trade = await this.stopLossOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision));
+          console.log(trade)
         } catch (error) {
           console.log(error)
 

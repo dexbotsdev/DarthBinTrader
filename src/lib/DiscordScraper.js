@@ -2,6 +2,7 @@ import WS from "ws";
 import logger from "./logger.js";
 import { processMessageA } from "./processor_darth.js";
 import { processMessageB } from "./processor_bin.js";
+import { processMessageDummy } from "./processor_dummy.js";
 
 class DiscordScraper {
 
@@ -16,6 +17,7 @@ class DiscordScraper {
     this.e = eventEmitter;
     this.channelIdA = config.channelIdA
     this.channelIdB = config.channelIdB
+    this.channelIdC = config.channelIdC
   }
 
 
@@ -107,13 +109,18 @@ class DiscordScraper {
               logger.error(JSON.stringify(d));
 
               if (Number(d.channel_id) === Number(this.channelIdA)) {
-                logger.info('Recd A')
+                logger.info('Recd signal from '+ Number(d.channel_id)) 
                  const takePosition1A = processMessageA(d);
                 if (takePosition1A !== 'Not A Signal') this.e.emit('tradeSignal', takePosition1A);
               }
               else if (Number(d.channel_id) === Number(this.channelIdB)) {
-                logger.info('Recd B') 
+                logger.info('Recd signal from '+ Number(d.channel_id)) 
                    const takePosition1B = processMessageB(d);
+                  if (takePosition1B !== 'Not A Signal') this.e.emit('tradeSignal', takePosition1B); 
+              }
+              else if (Number(d.channel_id) === Number(this.channelIdC)) {
+                logger.info('Recd signal from '+ Number(d.channel_id)) 
+                   const takePosition1B = processMessageDummy(d);
                   if (takePosition1B !== 'Not A Signal') this.e.emit('tradeSignal', takePosition1B); 
               }
             }
