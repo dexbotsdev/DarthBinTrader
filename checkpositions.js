@@ -3,7 +3,7 @@ import fs from 'fs'
 let config=null; 
 
 async function start() {
-    fs.readFile('./client.config.json', 'utf8', async (error, data) => {
+    fs.readFile('./client.d.json', 'utf8', async (error, data) => {
         if(error){
            console.log(error);
            return;
@@ -13,15 +13,13 @@ async function start() {
 
         ts.getOpenTrades().then((resp)=>{
             let i=0;
-
-            resp.map((item)=>{
-                console.log(i++ +":"+item.symbol+":"+ new Date(item.updateTime).toString()+":"+ new Date(item.time).toString())
-                //console.log(item)
+             resp.map((item)=>{
+                console.log(i++ +":"+item.symbol+":"+item.status+":"+item.origType+":"+ new Date(item.updateTime).toString())
+ 
+               // if(item.status==='NEW') ts.bin.futuresCountdownCancelAll( item.symbol, 1000 )
             })
         })
-
-
-        console.log(await ts.futuresAccount())
+ 
         
     }) 
  } 

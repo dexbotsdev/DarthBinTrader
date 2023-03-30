@@ -139,16 +139,12 @@ class BinTraderTSL {
     let binance = this.bin;
     let qttyPerSell;
     let trailingStopLoss = this.trailingStopLoss;
+    let errorTrade= false;
 
     if (this.duplicate.includes(tradeSignal.tokenSymbol + ":" + tradeSignal.entryRange + ":" + tradeSignal.side)) {
       logger.info('Signal has been Traded already so omitting')
       return;
-    } else {
-
-      this.duplicate.push(tradeSignal.tokenSymbol + ":" + tradeSignal.entryRange + ":" + tradeSignal.side)
-
-
-
+    } else { 
       logger.info('Setting Leverage for the Trade ' + config.leverage)
 
       console.log(tradeSignal)
@@ -175,7 +171,7 @@ class BinTraderTSL {
 
         if (tradeSignal.side === 'LONG') {
           let entrys = tradeSignal.entryRange;
-          let qttyPerTrade = 0.75 * (config.leverage * config.fundsPerTrade / signalQuote.askPrice);
+           let qttyPerTrade = 0.75 * (config.leverage * config.fundsPerTrade / signalQuote.askPrice);
           console.log(config.leverage * config.fundsPerTrade);
           console.log(config.leverage * config.fundsPerTrade / signalQuote.askPrice);
           console.log('qttyPerTrade.toFixed(symbol.quantityPrecision)=' + qttyPerTrade.toFixed(symbol.quantityPrecision));
@@ -185,12 +181,21 @@ class BinTraderTSL {
           logger.info('Placing Market Order  at ' + qttyPerTrade.toFixed(symbol.quantityPrecision) + ":" + Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
           try {
            // orderData.orderData = await this.bin.futuresOrder(tradeSignal.side === 'LONG' ? 'SELL' : 'BUY', coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision - 1));
-            orderData.orderData = await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision - 1));
+            orderData.orderData = await this.bin.futuresBuy(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
 
             console.log(orderData.orderData);
 
+            if(orderData.orderData.msg) {
+              errorTrade=true;
+
+              logger.docs('Retrying again ')
+              await this.tradeEnterSignal(tradeSignal,config);
+            } else {
+              this.duplicate.push(tradeSignal.tokenSymbol + ":" + tradeSignal.entryRange + ":" + tradeSignal.side)
+            }
           } catch (error) {
             console.log(error)
+            errorTrade = true;
           }
 
 
@@ -202,6 +207,7 @@ class BinTraderTSL {
             logger.info('Placing Take Profit Orders ' + qttyPerSell.toFixed(symbol.quantityPrecision) + ":" + newTps[s]);
             try {
 
+              if(!errorTrade)
               orderData.tpOrderData[s] = await this.takeProfitOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), newTps[s]);
 
               console.log(orderData.tpOrderData);
@@ -217,6 +223,8 @@ class BinTraderTSL {
 
             const slPrice = signalQuote.bidPrice * (1 - this.stopLoss / 100);
             logger.info('Placing StopLoss Order @ 7% ' + slPrice.toFixed(symbol.pricePrecision));
+
+            if(!errorTrade)
 
             orderData.slOrderData = await this.stopLossOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision - 1));
             console.log(orderData.slOrderData);
@@ -241,10 +249,13 @@ class BinTraderTSL {
 
 
             orderData.orderData = await this.bin.futuresSell(coin, qttyPerTrade.toFixed(symbol.quantityPrecision), Number(signalQuote.askPrice).toFixed(symbol.pricePrecision));
-
+            if(orderData.orderData.msg) {
+              errorTrade=true;
+            } else {
+              this.duplicate.push(tradeSignal.tokenSymbol + ":" + tradeSignal.entryRange + ":" + tradeSignal.side)
+            }
           } catch (error) {
-            console.log(error)
-
+            console.log(error)  
           }
           let takeProfits = tradeSignal.takeProfit.length > config.numberOfTakeProfits ? config.numberOfTakeProfits : newTps.length;
             qttyPerSell = qttyPerTrade / takeProfits;
@@ -252,7 +263,7 @@ class BinTraderTSL {
             logger.info('Placing Take Profit Orders ' + qttyPerSell.toFixed(symbol.quantityPrecision) + ":" + newTps[s]);
             try {
 
-
+              if(!errorTrade)
               orderData.tpOrderData = await this.takeProfitOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), newTps[s]);
 
             } catch (error) {
@@ -260,29 +271,35 @@ class BinTraderTSL {
             }
           }
 
-          logger.info('Placing StopLoss Order');
           try {
 
             const slPrice = signalQuote.askPrice * (1 + this.stopLoss / 100);
-            logger.info('Placing StopLoss Order @ 7% ' + slPrice);
-            orderData.slOrderData = await this.stopLossOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision));
-          } catch (error) {
+            if(!errorTrade)
+{            
+  logger.info('Placing StopLoss Order');
+
+  logger.info('Placing StopLoss Order @ 7% ' + slPrice);
+
+  orderData.slOrderData = await this.stopLossOrder(tradeSignal.side, coin, qttyPerSell.toFixed(symbol.quantityPrecision), slPrice.toFixed(symbol.pricePrecision));
+}          } catch (error) {
             console.log(error)
 
           }
 
         }
         
-        const stplOld = Number(orderData.slOrderData.stopPrice);
+        let stplOld = Number(orderData.slOrderData.stopPrice);
         const tps = tpRange;
         let tslCalc = 0;
         let newTsl = 0;
+
+        if(!errorTrade)
         this.bin.futuresMiniTickerStream(tradeSignal.tokenSymbol, function (data) {
 
           const currPrice = Number(data.close);
 
 
-          logger.info(currPrice +":" +":"+orderData.slOrderData.side+":"+newTsl +":"+ tslCalc +":"+stplOld+":"+tps[0]);
+          logger.info(currPrice +":" +":"+orderData.slOrderData.side+":"+newTsl.toFixed(symbol.pricePrecision) +":"+ tslCalc.toFixed(symbol.pricePrecision) +":"+stplOld+":"+tps[0]);
 
 
           tps.forEach((item) => {
@@ -302,11 +319,14 @@ class BinTraderTSL {
               tslCalc = currPrice * (1 -  trailingStopLoss / 100);
               newTsl = tslCalc < stplOld ? tslCalc : stplOld;
             }
-            
+
+             
           })
 
           if(newTsl !=0 && newTsl!= stplOld){
             logger.info(newTsl +":"+ tslCalc +":"+stplOld);  
+            stplOld = newTsl.toFixed(symbol.pricePrecision);
+
             logger.info("Now Will Be Cancelling Order Id "+orderData.slOrderData.orderId);
             binance.futuresCancel(orderData.slOrderData.symbol, { orderId: orderData.slOrderData.orderId }).then(orderDataX => {
   

@@ -4,6 +4,9 @@ import pkg from "emitter";
 import fs from 'fs'
 import logger from "./src/lib/logger.js";
 import TradeCleaner from "./src/lib/TradeCleaner.js";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const {EventEmitter} = pkg; 
 const eventEmitter = new EventEmitter();
@@ -40,7 +43,7 @@ async function start() {
             try{
                const orderData =   ts.tradeEnterSignal(tradeSignal,config);
 
-                await tc.autoCancelAfterTime(tradeSignal.tokenSymbol);
+               // await tc.autoCancelAfterTime(tradeSignal.tokenSymbol);
                 
             }catch(error){
                 logger.error(error)
